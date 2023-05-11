@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+p{
+  padding: 21px;
+}
+.box{
+  width: 200px;
+  margin: 5px;
+}
+.box1{
+  border: 1px solid black;
+  width: 40%;
+  margin: 50px auto;
+  border-radius: 10px;
+  padding: 40px;
+}
+form input{
+  width: 100%;
+  margin-top: 20px;
+  height: 25px;
+}
+form button{
+  margin-top: 20px;
+  width: 20%;
+  height: 30px;
+}
